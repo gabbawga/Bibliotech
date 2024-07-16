@@ -1,0 +1,14 @@
+C:\DeveloperSpace\Bibliotech\Bibliotech\bin\Debug\net8.0\Bibliotech.exe
+C:\DeveloperSpace\Bibliotech\Bibliotech\bin\Debug\net8.0\Bibliotech.deps.json
+C:\DeveloperSpace\Bibliotech\Bibliotech\bin\Debug\net8.0\Bibliotech.runtimeconfig.json
+C:\DeveloperSpace\Bibliotech\Bibliotech\bin\Debug\net8.0\Bibliotech.dll
+C:\DeveloperSpace\Bibliotech\Bibliotech\bin\Debug\net8.0\Bibliotech.pdb
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.GeneratedMSBuildEditorConfig.editorconfig
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.AssemblyInfoInputs.cache
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.AssemblyInfo.cs
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.csproj.CoreCompileInputs.cache
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.dll
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\refint\Bibliotech.dll
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.pdb
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.genruntimeconfig.cache
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\ref\Bibliotech.dll
