@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bibliotech.Biblioteca
+namespace Bibliotech.BibliotechMain
 {
     public class Biblioteca
     {
 
-        List<Livro> listaDeLivros = new List<Livro>();  
-
-        public string Nome { get; } = "Bibliotech";
+        List<Livro> listaDeLivros = new List<Livro>();
 
         public void AdicionarLivro(Livro livro)
         {
@@ -25,7 +23,7 @@ namespace Bibliotech.Biblioteca
 
         public void MostrarLivros()
         {
-            foreach(Livro livro in listaDeLivros)
+            foreach (Livro livro in listaDeLivros)
             {
                 Console.WriteLine($"Livros na biblioteca:{livro.Nome}");
             }

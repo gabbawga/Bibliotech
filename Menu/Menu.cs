@@ -1,39 +1,48 @@
-﻿using Bibliotech.Biblioteca;
-
+﻿using Bibliotech.BibliotechMain;
 namespace Bibliotech.Menu
 {
      class Menu
     {
 
-        public static void ExibirMenu()
+        public static void ExibirMenu(Biblioteca biblioteca)
         {
+
                 Console.Clear();
                 Console.WriteLine("Bem vindos ao Bibliotech");
                 Console.WriteLine("Digite o número da opção que deseja");
-                Console.WriteLine("1 - Livros disponíveis na biblioteca");
-                Console.WriteLine("2 - Adicionar livro");
-                Console.WriteLine("3 - Remover livro");
+                Console.WriteLine("1 - Adicionar um livro na sua biblioteca");
+                Console.WriteLine("2 - Remover um livro na sua biblioteca ");
+                Console.WriteLine("3 - Listar os livros");
                 Console.WriteLine("4 - Avaliar um livro");
                 Console.WriteLine("0 - Sair");
                 string opcao = Console.ReadLine();
 
                 int opcaoNum = Convert.ToInt32(opcao);
+                
 
-                switch (opcaoNum)
+            switch (opcaoNum)
                 {
                     case 1:
                         Console.Clear();
-                        
+                        Console.WriteLine("-- Adicionar um livro na sua biblioteca --");
+                        Console.WriteLine("Digite o nome do Livro:");
+                        string nomeDolivro = Console.ReadLine();
+                        Livro livro = new Livro(nomeDolivro);
+                        biblioteca.AdicionarLivro(livro);
+                        Menu.ExibirMenu(biblioteca);
                         break;
 
                     case 2:
-                        Console.Clear();
-                        Console.WriteLine($"Opção {opcaoNum}");
-                        break;
+                        
+                    break;
 
                     case 3:
-                        Console.WriteLine($"Opção {opcaoNum}");
-                        break;
+                        Console.Clear();
+                        biblioteca.MostrarLivros();
+                        Console.WriteLine("Pressione qualquer tecla para continuar...");
+                        Console.ReadKey();
+                        Menu.ExibirMenu(biblioteca);
+                    break;
 
                     case 4:
                         Console.WriteLine($"Opção {opcaoNum}");

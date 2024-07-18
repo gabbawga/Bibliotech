@@ -7,6 +7,7 @@ C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.GeneratedMSB
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.AssemblyInfoInputs.cache
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.AssemblyInfo.cs
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.csproj.CoreCompileInputs.cache
+C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.sourcelink.json
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.dll
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\refint\Bibliotech.dll
 C:\DeveloperSpace\Bibliotech\Bibliotech\obj\Debug\net8.0\Bibliotech.pdb

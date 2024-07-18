@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bibliotech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93d6d1a2cd998e447ff046f9f8f660a7e8e713eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bibliotech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bibliotech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,25 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bibliotech.Biblioteca
+namespace Bibliotech.BibliotechMain
 {
-    public class Livro 
+    public class Livro
     {
-        public Livro(string nome, string autor, string sinopse) 
+        public Livro(string nome)
         {
             Nome = nome;
-            Autor = autor;
-            sinopse = Sinopse;
-
+ 
         }
 
         public string Nome { get; set; }
-        public string Autor { get; set; }
-        public string Sinopse  { get; set; }
 
         public void DescreverLivro()
         {
-            
+            Console.WriteLine($" O livro {Nome} ");
         }
 
     }
