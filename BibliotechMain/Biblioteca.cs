@@ -9,21 +9,25 @@ namespace Bibliotech.BibliotechMain
     public class Biblioteca
     {
 
-        List<Livro> listaDeLivros = new List<Livro>();
-
+        public List<Livro> ListaDeLivros { get; set; }
+        
         public void AdicionarLivro(Livro livro)
         {
-            listaDeLivros.Add(livro);
+            ListaDeLivros.Add(livro);
         }
 
         public void RemoverLivro(Livro livro)
         {
-            listaDeLivros.Remove(livro);
+            if (ListaDeLivros.Contains(livro))
+            {
+                Console.WriteLine("Não existe este livro");
+            }
+            ListaDeLivros.Remove(livro);
         }
 
         public void MostrarLivros()
         {
-            foreach (Livro livro in listaDeLivros)
+            foreach (Livro livro in ListaDeLivros)
             {
                 Console.WriteLine($"Livros na biblioteca:{livro.Nome}");
             }
